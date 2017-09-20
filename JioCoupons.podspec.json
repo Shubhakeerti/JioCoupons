@@ -13,9 +13,15 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files":[
+  "preserve_paths":[
+    "JIOAppCouponIntegration.xcodeproj/project.pbxproj",
+    "Podfile",
+    "JIOAppCouponIntegration/Info.plist",
     "JIOAppCouponIntegration/AppDelegate.swift",
-    "JIOAppCouponIntegration/ViewController.swift", 
+    "JIOAppCouponIntegration/ViewController.swift",
+    "JIOAppCouponIntegration/Base.lproj/LaunchScreen.storyboard",
+    "JIOAppCouponIntegration/Base.lproj/Main.storyboard",
+    "JIOAppCouponIntegration/ObjcVersion/CouponLauncherViewController.xib"
     "JIOAppCouponIntegration/ObjcVersion/CouponLauncherViewController.h", 
     "JIOAppCouponIntegration/ObjcVersion/CouponLauncherViewController.m"
   ],
