@@ -1,0 +1,34 @@
+{
+  "authors": "JioCoupons",
+  "dependencies": {
+    "SDWebImage": "3.8.2"
+  },
+  "description": "Use the Google Places API for iOS to enrich your app with detailed information from Google's Places database.",
+  "homepage": "https://jiomoney.com",
+  "license": {
+    "text": "Copyright 2017 Jio",
+    "type": "Copyright"
+  },
+  "name": "JioCoupons",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files":[
+    "JIOAppCouponIntegration/AppDelegate.swift",
+    "JIOAppCouponIntegration/ViewController.swift", 
+    "JIOAppCouponIntegration/ObjcVersion/CouponLauncherViewController.h", 
+    "JIOAppCouponIntegration/ObjcVersion/CouponLauncherViewController.m"
+  ],
+  "resources": [
+    "JIOAppCouponIntegration/Base.lproj/*.storyboard",
+    "JIOAppCouponIntegration/ObjcVersion/CouponLauncherViewController.xib"
+  ],
+  "source": {
+    "http": "https://drive.google.com/uc?export=download&id=0B4-VpIYewGyLUVpKcVlKV1I2Tkk"
+  },
+  "summary": "JioCoupons for iOS.",
+  "vendored_frameworks": [
+    "Frameworks/JioCoupons.framework"
+  ],
+  "version": "0.0.1"
+}
