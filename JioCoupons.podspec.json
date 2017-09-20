@@ -23,7 +23,8 @@
     "JIOAppCouponIntegration/Base.lproj/Main.storyboard",
     "JIOAppCouponIntegration/ObjcVersion/CouponLauncherViewController.xib"
     "JIOAppCouponIntegration/ObjcVersion/CouponLauncherViewController.h", 
-    "JIOAppCouponIntegration/ObjcVersion/CouponLauncherViewController.m"
+    "JIOAppCouponIntegration/ObjcVersion/CouponLauncherViewController.m",
+    "JIOAppCouponIntegration/Supporting\/Files/JIOAppCouponIntegration-Bridging-Header.h"
   ],
   "resources": [
     "JIOAppCouponIntegration/Base.lproj/*.storyboard",
@@ -36,5 +37,5 @@
   "vendored_frameworks": [
     "Frameworks/JioCoupons.framework"
   ],
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
